@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viemo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <div class="logo">Viemo</div>
+      <ul class="nav-links">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="cta">Order Now</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to Viemo</h1>
+    <p>Redefining flavors, the Viemo way.</p>
+    <button class="cta">Explore Menu</button>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="coffee.jpg" alt="Coffee">
+        <h3>Classic Coffee</h3>
+        <p>Rich, bold, and satisfying.</p>
+      </div>
+      <div class="menu-item">
+        <img src="latte.jpg" alt="Latte">
+        <h3>Signature Latte</h3>
+        <p>Silky smooth with a hint of sweetness.</p>
+      </div>
+      <div class="menu-item">
+        <img src="frappuccino.jpg" alt="Frappuccino">
+        <h3>Cool Frappuccino</h3>
+        <p>Perfectly chilled for any time of day.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      Viemo is a lifestyle brand offering premium beverages and unforgettable
+      experiences.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? We're here to help!</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>©️ 2024 Viemo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
